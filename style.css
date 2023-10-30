@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bck{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url('./yhts7O.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 40px;
+}
+h1{
+    color: white;
+    padding-top: 70px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+h2{
+    color: #0490f5;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.input{
+    text-align: center;
+    padding: 20px;
+}
+.name{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+.button{
+    text-align: center;
+}
+.btn{
+    background-color: #0076cd;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    width: 120px;
+}
+#file{
+    display: none;
+}
+label{
+    height: 100px;
+    width: 150px;
+    border-radius: 6px;
+    border: 1px dashed #fff;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+label:hover{
+    color: #f65b08;
+    border: 1px dashed #f65b08;
+}
+#form{
+    display: grid;
+}
+input{
+    margin-bottom: 40px;
+}
+#formp{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    h1{
+        text-align:justify;
+    }
+    h2{
+        text-align: justify;
+    }
+    .name{
+        width: 300px;
+    }
+    .input{
+        text-align: justify;
+    }
+    .button{
+        text-align: justify;
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width:952px){
+    h1{
+        text-align:justify;
+    }
+    h2{
+        text-align: justify;
+    }
+    .name{
+        width: 300px;
+    }
+    .input{
+        text-align: justify;
+    }
+    .button{
+        text-align: justify;
+        margin-left: 20px;
+    }
+}
