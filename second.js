@@ -15,7 +15,7 @@ function htmlToimage() {
     domtoimage.toJpeg(document.getElementById('mainimg'), { quality: 0.95 })
     .then(function (dataUrl) {
         var link = document.createElement('a');
-        link.download = 'myImage.jpeg';
+        link.download = 'my Image.jpeg';
         link.href = dataUrl;
         link.click();
     });
