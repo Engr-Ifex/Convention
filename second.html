@@ -5,44 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./second.css">
     <title>RAPEC 24TH CONVENTION</title>
-    <!-- <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-    </script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">
-    </script> -->
 </head>
 <body>
 
         <div id="mainimg">
-                <img src="" alt="" width="50px" id="showimg" class="rounded-circle">
-                <p>hhhhhg</p>
+                <img src="" alt="" width="50px" id="showimg">
+                <p></p>
         </div>
-    <!-- <div id="conta"><a   id="divdownload" > Download</a></div> -->
+    <div id="conta"><button   id="divdownload" onclick="htmlToimage()" > Download</button> </div>
+    <img src="" alt="" id="newimg">
     
 
     <script src="./second.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script>
+       
+    </script>
 
 
 
-    <!-- <script type="text/javascript">
-        function autoClick(){
-          $("#divdownload").click();
-        }
-  
-        $(document).ready(function(){
-          var element = $("#mainimg");
-  
-          $("#divdownload").on('click', function(){
-  
-            html2canvas(element, {
-              onrendered: function(canvas) {
-                var imageData = canvas.toDataURL("image/jpg");
-                var newData = imageData.replace(/^data:image\/jpg/, "data:application/octet-stream");
-                $("#divdownload").attr("download", "image.jpg").attr("href", newData);
-              }
-            });
-  
-          });
-        });
-      </script> -->
+
 </body>
 </html>

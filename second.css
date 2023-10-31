@@ -13,7 +13,6 @@ body{
     width: 432px;
     background-size: cover;
     object-fit: cover;
-    margin: 0 auto;
     padding-top: 98px;
     padding-right: 20px;
 }
@@ -31,9 +30,8 @@ p{
 
 }
 #conta{
-    display: grid;
-    place-items: center;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 #divdownload{
     background-color: #0076cd;
@@ -50,4 +48,7 @@ p{
 #divdownload:hover{
     opacity: 0.9;
 }
-
+#newimg{
+    object-fit: contain;
+    width: 500px;
+}
